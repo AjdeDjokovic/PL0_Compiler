@@ -1,0 +1,3 @@
+D:/code/PL0_Compiler/test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/code/PL0_Compiler/test/cmake-build-debug/CMakeFiles/test.dir
+D:/code/PL0_Compiler/test/cmake-build-debug/CMakeFiles/edit_cache.dir
