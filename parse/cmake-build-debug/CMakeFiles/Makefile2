@@ -58,45 +58,45 @@ RM = "C:\ide\clion\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\code\PL0_Compiler\test
+CMAKE_SOURCE_DIR = D:\code\PL0_Compiler\parse
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\code\PL0_Compiler\test\cmake-build-debug
+CMAKE_BINARY_DIR = D:\code\PL0_Compiler\parse\cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/test.dir
+# Target rules for target CMakeFiles/parse.dir
 
 # All Build rule for target.
-CMakeFiles/test.dir/all:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/depend
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\PL0_Compiler\test\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target test"
-.PHONY : CMakeFiles/test.dir/all
+CMakeFiles/parse.dir/all:
+	$(MAKE) -f CMakeFiles\parse.dir\build.make CMakeFiles/parse.dir/depend
+	$(MAKE) -f CMakeFiles\parse.dir\build.make CMakeFiles/parse.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\PL0_Compiler\parse\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target parse"
+.PHONY : CMakeFiles/parse.dir/all
 
 # Include target in all.
-all: CMakeFiles/test.dir/all
+all: CMakeFiles/parse.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\PL0_Compiler\test\cmake-build-debug\CMakeFiles 4
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\PL0_Compiler\test\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/test.dir/rule
+CMakeFiles/parse.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\PL0_Compiler\parse\cmake-build-debug\CMakeFiles 4
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/parse.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\PL0_Compiler\parse\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/parse.dir/rule
 
 # Convenience name for target.
-test: CMakeFiles/test.dir/rule
+parse: CMakeFiles/parse.dir/rule
 
-.PHONY : test
-
-# clean rule for target.
-CMakeFiles/test.dir/clean:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/clean
-.PHONY : CMakeFiles/test.dir/clean
+.PHONY : parse
 
 # clean rule for target.
-clean: CMakeFiles/test.dir/clean
+CMakeFiles/parse.dir/clean:
+	$(MAKE) -f CMakeFiles\parse.dir\build.make CMakeFiles/parse.dir/clean
+.PHONY : CMakeFiles/parse.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/parse.dir/clean
 
 .PHONY : clean
 

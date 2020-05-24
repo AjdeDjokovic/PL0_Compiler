@@ -47,24 +47,13 @@ RM = "C:\ide\clion\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\code\PL0_Compiler\test
+CMAKE_SOURCE_DIR = D:\code\PL0_Compiler\parse
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\code\PL0_Compiler\test\cmake-build-debug
+CMAKE_BINARY_DIR = D:\code\PL0_Compiler\parse\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\ide\clion\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -77,11 +66,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"C:\ide\clion\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\PL0_Compiler\test\cmake-build-debug\CMakeFiles D:\code\PL0_Compiler\test\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\PL0_Compiler\parse\cmake-build-debug\CMakeFiles D:\code\PL0_Compiler\parse\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\PL0_Compiler\test\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\PL0_Compiler\parse\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named test
+# Target rules for targets named parse
 
 # Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 test
-.PHONY : test
+parse: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 parse
+.PHONY : parse
 
 # fast build rule for target.
-test/fast:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
-.PHONY : test/fast
+parse/fast:
+	$(MAKE) -f CMakeFiles\parse.dir\build.make CMakeFiles/parse.dir/build
+.PHONY : parse/fast
 
 lex.obj: lex.cpp.obj
 
@@ -128,7 +128,7 @@ lex.obj: lex.cpp.obj
 
 # target to build an object file
 lex.cpp.obj:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/lex.cpp.obj
+	$(MAKE) -f CMakeFiles\parse.dir\build.make CMakeFiles/parse.dir/lex.cpp.obj
 .PHONY : lex.cpp.obj
 
 lex.i: lex.cpp.i
@@ -137,7 +137,7 @@ lex.i: lex.cpp.i
 
 # target to preprocess a source file
 lex.cpp.i:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/lex.cpp.i
+	$(MAKE) -f CMakeFiles\parse.dir\build.make CMakeFiles/parse.dir/lex.cpp.i
 .PHONY : lex.cpp.i
 
 lex.s: lex.cpp.s
@@ -146,7 +146,7 @@ lex.s: lex.cpp.s
 
 # target to generate assembly for a file
 lex.cpp.s:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/lex.cpp.s
+	$(MAKE) -f CMakeFiles\parse.dir\build.make CMakeFiles/parse.dir/lex.cpp.s
 .PHONY : lex.cpp.s
 
 main.obj: main.cpp.obj
@@ -155,7 +155,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\parse.dir\build.make CMakeFiles/parse.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -164,7 +164,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\parse.dir\build.make CMakeFiles/parse.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -173,7 +173,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\parse.dir\build.make CMakeFiles/parse.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 parse.obj: parse.cpp.obj
@@ -182,7 +182,7 @@ parse.obj: parse.cpp.obj
 
 # target to build an object file
 parse.cpp.obj:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/parse.cpp.obj
+	$(MAKE) -f CMakeFiles\parse.dir\build.make CMakeFiles/parse.dir/parse.cpp.obj
 .PHONY : parse.cpp.obj
 
 parse.i: parse.cpp.i
@@ -191,7 +191,7 @@ parse.i: parse.cpp.i
 
 # target to preprocess a source file
 parse.cpp.i:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/parse.cpp.i
+	$(MAKE) -f CMakeFiles\parse.dir\build.make CMakeFiles/parse.dir/parse.cpp.i
 .PHONY : parse.cpp.i
 
 parse.s: parse.cpp.s
@@ -200,7 +200,7 @@ parse.s: parse.cpp.s
 
 # target to generate assembly for a file
 parse.cpp.s:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/parse.cpp.s
+	$(MAKE) -f CMakeFiles\parse.dir\build.make CMakeFiles/parse.dir/parse.cpp.s
 .PHONY : parse.cpp.s
 
 # Help Target
@@ -209,9 +209,9 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... rebuild_cache
-	@echo ... test
+	@echo ... parse
 	@echo ... edit_cache
+	@echo ... rebuild_cache
 	@echo ... lex.obj
 	@echo ... lex.i
 	@echo ... lex.s

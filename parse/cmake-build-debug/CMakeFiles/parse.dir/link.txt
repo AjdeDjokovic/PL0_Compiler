@@ -1,0 +1,3 @@
+"C:\ide\clion\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\parse.dir/objects.a
+C:\ide\MinGW\bin\ar.exe cr CMakeFiles\parse.dir/objects.a @CMakeFiles\parse.dir\objects1.rsp
+C:\ide\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\parse.dir/objects.a -Wl,--no-whole-archive  -o parse.exe -Wl,--out-implib,libparse.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\parse.dir\linklibs.rsp

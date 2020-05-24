@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/code/PL0_Compiler/test/lex.cpp" "D:/code/PL0_Compiler/test/cmake-build-debug/CMakeFiles/test.dir/lex.cpp.obj"
-  "D:/code/PL0_Compiler/test/main.cpp" "D:/code/PL0_Compiler/test/cmake-build-debug/CMakeFiles/test.dir/main.cpp.obj"
-  "D:/code/PL0_Compiler/test/parse.cpp" "D:/code/PL0_Compiler/test/cmake-build-debug/CMakeFiles/test.dir/parse.cpp.obj"
+  "D:/code/PL0_Compiler/parse/lex.cpp" "D:/code/PL0_Compiler/parse/cmake-build-debug/CMakeFiles/parse.dir/lex.cpp.obj"
+  "D:/code/PL0_Compiler/parse/main.cpp" "D:/code/PL0_Compiler/parse/cmake-build-debug/CMakeFiles/parse.dir/main.cpp.obj"
+  "D:/code/PL0_Compiler/parse/parse.cpp" "D:/code/PL0_Compiler/parse/cmake-build-debug/CMakeFiles/parse.dir/parse.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
