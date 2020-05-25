@@ -12,66 +12,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02ac4c30-52ce-42e1-a301-42c6af4099cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../parse/.idea/parse.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../parse/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lex/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../parse/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/.idea/test.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../learn/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../parse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../parse/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../parse/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/test.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/test.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/test.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/test.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/test.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/test.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/test.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/test.dir/lex.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/test.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/test.dir/linklibs.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/test.dir/main.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/test.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/test.dir/objects1.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/test.dir/parse.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/CMakeFiles/test.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../parse/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../parse/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/input/PL0_code.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/input/PL0_code0.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/input/PL0_code1.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/input/PL0_code2.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/input/PL0_code3.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/lex/PL0_code.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/lex/PL0_code0.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/lex/PL0_code1.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/lex/PL0_code2.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/lex/PL0_code3.out" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/parse/PL0_code.out" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/parse/PL0_code0.out" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/parse/PL0_code1.out" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/parse/PL0_code2.out" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/parse/PL0_code3.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/test.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/cmake-build-debug/test.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/data.h" beforeDir="false" afterPath="$PROJECT_DIR$/../parse/data.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/lex.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../parse/lex.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/lex.h" beforeDir="false" afterPath="$PROJECT_DIR$/../parse/lex.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../parse/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/parse.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../parse/parse.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parse/parse.h" beforeDir="false" afterPath="$PROJECT_DIR$/../parse/parse.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/lex.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/lex.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/parse.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/parse.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lex/PL0_code0.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lex/PL0_code0.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lex/PL0_code1.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lex/PL0_code1.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lex/PL0_code2.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lex/PL0_code2.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lex/PL0_code3.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lex/PL0_code3.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.h" beforeDir="false" afterPath="$PROJECT_DIR$/data.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lex.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lex.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parse.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/parse.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parse.h" beforeDir="false" afterPath="$PROJECT_DIR$/parse.h" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +54,13 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../parse" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../code" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/cmake-build-debug/input/PL0_code4.txt" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\PL0_Compiler\test\cmake-build-debug\input" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -125,7 +95,9 @@
       <workItem from="1589612075992" duration="281000" />
       <workItem from="1589728383017" duration="750000" />
       <workItem from="1589799283245" duration="599000" />
-      <workItem from="1590325404277" duration="908000" />
+      <workItem from="1590325404277" duration="10311000" />
+      <workItem from="1590378518900" duration="1476000" />
+      <workItem from="1590385266092" duration="5032000" />
     </task>
     <servers />
   </component>
