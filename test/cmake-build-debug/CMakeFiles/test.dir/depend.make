@@ -12,3 +12,7 @@ CMakeFiles/test.dir/parse.cpp.obj: ../data.h
 CMakeFiles/test.dir/parse.cpp.obj: ../parse.cpp
 CMakeFiles/test.dir/parse.cpp.obj: ../parse.h
 
+CMakeFiles/test.dir/vm.cpp.obj: ../data.h
+CMakeFiles/test.dir/vm.cpp.obj: ../vm.cpp
+CMakeFiles/test.dir/vm.cpp.obj: ../vm.h
+

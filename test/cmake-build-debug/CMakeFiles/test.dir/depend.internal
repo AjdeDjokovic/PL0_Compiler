@@ -12,3 +12,7 @@ CMakeFiles/test.dir/parse.cpp.obj
  D:/code/PL0_Compiler/test/data.h
  D:/code/PL0_Compiler/test/parse.cpp
  D:/code/PL0_Compiler/test/parse.h
+CMakeFiles/test.dir/vm.cpp.obj
+ D:/code/PL0_Compiler/test/data.h
+ D:/code/PL0_Compiler/test/vm.cpp
+ D:/code/PL0_Compiler/test/vm.h

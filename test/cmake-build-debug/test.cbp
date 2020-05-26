@@ -98,6 +98,12 @@
 		<Unit filename="D:/code/PL0_Compiler/test/parse.h">
 			<Option target="test"/>
 		</Unit>
+		<Unit filename="D:/code/PL0_Compiler/test/vm.cpp">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="D:/code/PL0_Compiler/test/vm.h">
+			<Option target="test"/>
+		</Unit>
 		<Unit filename="D:/code/PL0_Compiler/test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -36,14 +36,18 @@ int main() {
                    "lex\\PL0_code2.out", "lex\\PL0_code3.out","lex\\PL0_code4.out"};
     char *c3[6] = {"parse\\PL0_code.out", "parse\\PL0_code0.out", "parse\\PL0_code1.out", "parse\\PL0_code2.out",
                    "parse\\PL0_code3.out","parse\\PL0_code4.out"};
-    char *c4[6] = {"code\\PL0_code.out", "code\\PL0_code0.out", "code\\PL0_code1.out", "code\\PL0_code2.out",
+    char *c4[6] = {"table\\PL0_code.out", "table\\PL0_code0.out", "table\\PL0_code1.out", "table\\PL0_code2.out",
+                   "table\\PL0_code3.out","table\\PL0_code4.out"};
+    char *c5[6] = {"code\\PL0_code.out", "code\\PL0_code0.out", "code\\PL0_code1.out", "code\\PL0_code2.out",
                    "code\\PL0_code3.out","code\\PL0_code4.out"};
 
     for(int i = 0;i < 6;i++)
     {
         lex(c1[i], c2[i]);
-        parse(c3[i],c4[i]);
+        parse(c3[i],c4[i],c5[i]);
     }
+
+    vm("code\\PL0_code2.out");
 
 //    lex(c1[4], c2[4]);
 //    parse(c3[4]);

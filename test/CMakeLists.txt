@@ -3,4 +3,4 @@ project(test)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(test main.cpp parse.cpp parse.h lex.cpp lex.h data.h)
+add_executable(test main.cpp parse.cpp parse.h lex.cpp lex.h data.h vm.cpp vm.h)

@@ -28,10 +28,11 @@ tokenStruct curToken;           //最新读入tokenStruct
 int blank = 0;                      //打印空格数
 FILE *ofp;
 FILE *codeFp;
+FILE *tableFp;
 
 int mainCode;
 
-void parse(char *outfilename,char *codefilename) {
+void parse(char *parsefilename,char *tablefilename,char *codefilename) {
     memset(table,0, sizeof(table));
     tx = 0, cx = 0, lev = -1;
     dx = 3;
@@ -39,18 +40,19 @@ void parse(char *outfilename,char *codefilename) {
     blank = 0;
     table[0].level = -1;
 
-    ofp = fopen(outfilename, "w");
+    ofp = fopen(parsefilename, "w");
     codeFp = fopen(codefilename,"w");
+    tableFp = fopen(tablefilename,"w");
 
     program();
 
     for (int i = 0; i <= tx; i++) {
-        printf("kind:%d\tval:%d\tlevel:%d\taddr:%d\t\tname:%s\n", table[i].kind, table[i].val, table[i].level,
+        fprintf(tableFp,"kind:%d\tval:%d\tlev:%d\taddr:%d\tname:%s\n", table[i].kind, table[i].val, table[i].level,
                table[i].addr, table[i].name);
     }
 
     for (int i=0; i<cx;i++) {
-        fprintf(codeFp,"%d:\t%d %d %d\n", i,code[i].ins, code[i].l, code[i].m);
+        fprintf(codeFp,"%d %d %d\n", code[i].ins, code[i].l, code[i].m);
     }
 
     fclose(ofp);

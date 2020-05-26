@@ -11,7 +11,6 @@
 #define MAX_LEXI_LEVELS 3
 #define MAX_SYMBOL_TABLE_SIZE 1000
 
-#define MAX_STACK_HEIGHT 2000
 
 #define MAX_STRPRINT_LENGTH 34
 
@@ -77,7 +76,6 @@ enum ins_type
     JMP,
     JPC,
     OPR
-
 };
 
 enum op_type
@@ -106,9 +104,9 @@ struct instruction{
 
 extern instruction code[CODE_SIZE];
 
-void parse(char *outfilename,char *codefilename);
+void parse(char *parsefilename,char *tablefilename,char *codefilename);
 
-void vm();
+void vm(char *codefilename);
 
 
 

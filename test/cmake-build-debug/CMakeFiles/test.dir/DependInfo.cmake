@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/code/PL0_Compiler/test/lex.cpp" "D:/code/PL0_Compiler/test/cmake-build-debug/CMakeFiles/test.dir/lex.cpp.obj"
   "D:/code/PL0_Compiler/test/main.cpp" "D:/code/PL0_Compiler/test/cmake-build-debug/CMakeFiles/test.dir/main.cpp.obj"
   "D:/code/PL0_Compiler/test/parse.cpp" "D:/code/PL0_Compiler/test/cmake-build-debug/CMakeFiles/test.dir/parse.cpp.obj"
+  "D:/code/PL0_Compiler/test/vm.cpp" "D:/code/PL0_Compiler/test/cmake-build-debug/CMakeFiles/test.dir/vm.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
