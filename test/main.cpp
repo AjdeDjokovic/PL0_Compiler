@@ -41,26 +41,15 @@ int main() {
     char *c5[6] = {"code\\PL0_code.out", "code\\PL0_code0.out", "code\\PL0_code1.out", "code\\PL0_code2.out",
                    "code\\PL0_code3.out","code\\PL0_code4.out"};
 
-    for(int i = 0;i < 6;i++)
-    {
-        lex(c1[i], c2[i]);
-        parse(c3[i],c4[i],c5[i]);
-    }
-
-    vm("code\\PL0_code2.out");
-
-//    lex(c1[4], c2[4]);
-//    parse(c3[4]);
-
-//    char c2[30] = "parserout.txt";
-//    char c3[30] = "parserout11.txt";
-//    FILE *file1 = fopen(c2, "r");
-//    FILE *file2 = fopen(c3, "r");
-//    while(fgetc(file1) != fgetc(file2))
+//    for(int i = 0;i < 6;i++)
 //    {
-//
-//        printf("false");
-//        return 0;
+//        lex(c1[i], c2[i]);
+//        parse(c3[i],c4[i],c5[i]);
 //    }
+
+    vm("code\\PL0_code3.out");
+
+
+
     return 0;
 }

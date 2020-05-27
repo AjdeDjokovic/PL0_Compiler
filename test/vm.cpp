@@ -11,13 +11,12 @@ int sp;     //栈顶
 int bp;     //基址
 int pc;     //程序地址寄存器
 
-int codeLength;
+int codeLength;                             //目标代码长度
 instruction arrayStruct[CODE_SIZE];         //存放读入目标代码
 
+instruction ir;                             //指令寄存器
 
-instruction ir;     //指令寄存器
-
-int stack[MAX_STACK_HEIGHT];
+int stack[MAX_STACK_HEIGHT];                //堆栈
 
 void vm(char *codefilename) {
     pc = 0;
@@ -47,7 +46,6 @@ void vm(char *codefilename) {
 //        printReg();
 //        printStack();
     }
-
 }
 
 void executeCycle() {
@@ -181,7 +179,7 @@ void printStackFrame() {
     printf("ir:(%d %d %d)\n", ir.ins, ir.l, ir.m);
 }
 
-void printIr()
+void printIr()              //输出指令
 {
     printf("ir:(%d %d %d)\t", ir.ins, ir.l, ir.m);
     if(ir.ins == OPR)
@@ -190,14 +188,14 @@ void printIr()
         printf("(%s %d %d)\n", insStr[ir.ins], ir.l, ir.m);
 }
 
-void printReg()
+void printReg()             //输出寄存器值
 {
     printf("pc:%d\t", pc);
     printf("bp:%d\t", bp);
     printf("sp:%d\t", sp);
 }
 
-void printStack()
+void printStack()           //输出堆栈信息
 {
     printf("stack:(");
     int max = sp >= bp ? sp : bp;

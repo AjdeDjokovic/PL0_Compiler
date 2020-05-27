@@ -15,17 +15,18 @@
 #include "data.h"
 #include "parse.h"
 
-symbol table[MAX_SYMBOL_TABLE_SIZE];
-instruction code[CODE_SIZE];
+symbol table[MAX_SYMBOL_TABLE_SIZE];    //符号表
+instruction code[CODE_SIZE];            //目标代码
 
-int tx, cx, lev = -1;           //tx已经占据，cx没有占据
+int tx, cx, lev = -1;                   //tx表示符号表序号，cx表示代码表序号，lev表示当前层数
+                                        //tx已经占据，cx没有占据
 
-int dx = 3;
+int dx = 3;                             //表示当前过程偏移
 
-int lexemeListIndex = 0;        //当前读入位置
-tokenStruct curToken;           //最新读入tokenStruct
+int lexemeListIndex = 0;                //词法分析结果当前读入位置
+tokenStruct curToken;                   //最新读入tokenStruct
 
-int blank = 0;                      //打印空格数
+int blank = 0;                          //打印空格数
 FILE *ofp;
 FILE *codeFp;
 FILE *tableFp;

@@ -8,21 +8,15 @@
 
 D:/code/PL0_Compiler/test/data.h
 
-D:/code/PL0_Compiler/test/parse.cpp
-stdio.h
+D:/code/PL0_Compiler/test/vm.cpp
+cstdio
 -
-string.h
--
-stdlib.h
--
-ctype.h
+cstring
 -
 data.h
 D:/code/PL0_Compiler/test/data.h
-parse.h
-D:/code/PL0_Compiler/test/parse.h
+vm.h
+D:/code/PL0_Compiler/test/vm.h
 
-D:/code/PL0_Compiler/test/parse.h
-data.h
-D:/code/PL0_Compiler/test/data.h
+D:/code/PL0_Compiler/test/vm.h
 
