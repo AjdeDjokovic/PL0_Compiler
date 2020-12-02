@@ -46,7 +46,7 @@
 		#Test function, compile and execute the 6 PL0 files that come with it
 		./test
 
-		#Compile and execute the specified PL0 file, and the 				intermediate results are stored in the same directory
+		#Compile and execute the specified PL0 file, and the intermediate results are stored in the same directory
 		./test filename
 		```
 
