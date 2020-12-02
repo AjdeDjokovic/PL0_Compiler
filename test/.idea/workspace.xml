@@ -16,12 +16,14 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/main.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/parse.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/parse.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/vm.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/vm.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/table/PL0_code.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/table/PL0_code.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/table/PL0_code0.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/table/PL0_code0.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/table/PL0_code1.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/table/PL0_code1.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/table/PL0_code2.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/table/PL0_code2.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/table/PL0_code3.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/table/PL0_code3.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/table/PL0_code4.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/table/PL0_code4.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/test.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parse.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/parse.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vm.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/vm.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +42,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/大三下/软件工程/杜瀛川实验/附件" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/cmake-build-debug/input/PL0_code4.txt" />
   </component>
   <component name="RecentsManager">
@@ -86,7 +88,13 @@
       <workItem from="1590385266092" duration="8707000" />
       <workItem from="1590480850229" duration="7112000" />
       <workItem from="1590506155569" duration="5180000" />
-      <workItem from="1590537867036" duration="7336000" />
+      <workItem from="1590537867036" duration="7403000" />
+      <workItem from="1590755511126" duration="60000" />
+      <workItem from="1590770245577" duration="49000" />
+      <workItem from="1591447873380" duration="1314000" />
+      <workItem from="1606900048860" duration="2879000" />
+      <workItem from="1606920592494" duration="1681000" />
+      <workItem from="1606922724835" duration="936000" />
     </task>
     <servers />
   </component>

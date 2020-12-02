@@ -1,3 +1,0 @@
-D:/code/PL0_Compiler/parse/cmake-build-debug/CMakeFiles/parse.dir
-D:/code/PL0_Compiler/parse/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/code/PL0_Compiler/parse/cmake-build-debug/CMakeFiles/rebuild_cache.dir

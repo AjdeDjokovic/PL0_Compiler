@@ -8,15 +8,11 @@
 
 D:/code/PL0_Compiler/test/data.h
 
-D:/code/PL0_Compiler/test/vm.cpp
-cstdio
--
-cstring
+D:/code/PL0_Compiler/test/main.cpp
+iostream
 -
 data.h
 D:/code/PL0_Compiler/test/data.h
-vm.h
-D:/code/PL0_Compiler/test/vm.h
-
-D:/code/PL0_Compiler/test/vm.h
+cstring
+-
 

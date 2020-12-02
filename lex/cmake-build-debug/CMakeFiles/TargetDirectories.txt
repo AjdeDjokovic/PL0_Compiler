@@ -1,3 +1,0 @@
-D:/code/compile/lex/cmake-build-debug/CMakeFiles/compile.dir
-D:/code/compile/lex/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/code/compile/lex/cmake-build-debug/CMakeFiles/rebuild_cache.dir

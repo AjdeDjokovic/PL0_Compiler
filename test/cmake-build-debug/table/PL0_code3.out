@@ -1,7 +1,0 @@
-kind:0	val:0	lev:-1	addr:48	name:
-kind:1	val:100	lev:0	addr:0	name:max
-kind:2	val:0	lev:0	addr:3	name:arg
-kind:2	val:0	lev:0	addr:4	name:ret
-kind:3	val:0	lev:0	addr:1	name:isprime
-kind:2	val:0	lev:1	addr:3	name:i
-kind:3	val:0	lev:0	addr:28	name:primes

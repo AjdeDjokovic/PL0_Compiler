@@ -1,4 +1,0 @@
-ToolSet: 5.2 (local)@C:\ide\MinGW
-Options: 
-
-Options:
